@@ -4,10 +4,11 @@ dateDisplayEL = $('#currentDay')
 
 
 
-// handles displaying the date
+// handles displaying the date in header
 function displayDate() {
-    var rightNow = moment().format('MMM DD, YYYY [at] hh:mm:ss a');
+    var rightNow = moment().format('dddd, MMM Do, YYYY');
     dateDisplayEl.text(rightNow);
+    console.log("what day is it?")
   }
 
 displayDate();
