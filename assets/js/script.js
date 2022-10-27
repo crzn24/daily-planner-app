@@ -2,10 +2,11 @@
 var dateDisplayEl = $('#currentDay')
 
 
-var rightNow = moment().format('dddd, MMM Do, YYYY');
+
 
 // handles displaying the date in header
 function displayDate() {
+    var rightNow = moment().format('dddd, MMM Do, YYYY');
     dateDisplayEl.text(rightNow);
     console.log("what day is it?")
   }
