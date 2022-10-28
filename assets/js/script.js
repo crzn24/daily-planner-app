@@ -16,12 +16,15 @@ displayDate();
 
 // function to check time?
 
+// how to get hours for each time block
+// id class name or data
 
 // function to change classes of the time blocks?
 
 
 
 // event listener for the save button
-
+// call some function, get value from text area, specific area of text area or Element. parent and children, siblings. previous activity. to traverse 
 
 //local storage 
+// need to call local storage twice, display data first, other to save data
