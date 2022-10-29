@@ -15,31 +15,30 @@ displayDate();
 
 
 // function to check time (hour of the day) and 
-var exactHour = moment().hour();
+// var exactHour = moment().hour();
 
-function timeCheck() {
-    
+// function timeCheck() {   
 
-}
+// }
 
 
 // how to get hours for each time block
 // id class name or data
 
-var rowTime = ".time-block"
+// var rowTime = ".time-block"
 
 
 
 
 // function to change classes of the time blocks?
 
-if (rowTime < exactHour) {
-    addClass("past");
-} else if (rowTime === exactHour) {
-    addClass("present");
-} else {
-    addClass("future");
-}
+// if (rowTime < exactHour) {
+//     addClass("past");
+// } else if (rowTime === exactHour) {
+//     addClass("present");
+// } else {
+//     addClass("future");
+// }
 
 
 
