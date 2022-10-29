@@ -43,9 +43,11 @@ displayDate();
 
 
 // event listener for the save button
-// call some function, get value from text area, specific area of text area or Element. parent and children, siblings. previous activity. to traverse 
+// call some function, get value from text area, specific area of text area or Element. parent and children, siblings. previous activity. to traverse. suggested by TA
 
-
+$(".saveBtn").on("click", function() {
+    var 
+});
 
 
 

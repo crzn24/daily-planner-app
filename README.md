@@ -9,3 +9,6 @@ https://www.w3schools.com/tags/tag_textarea.asp
 
 jQuery Syntax 
 https://www.w3schools.com/jquery/jquery_syntax.asp
+
+jQuery Traversing
+https://www.w3schools.com/jquery/jquery_traversing.asp
