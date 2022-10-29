@@ -47,6 +47,11 @@ displayDate();
 
 $(".saveBtn").click(function() {
     console.log("click works");
+
+    var time = "test" //just a placeholder
+    var textDescription = $(this).siblings(".description").val();
+
+    localStorage.setItem(time, textDescription);
 });
 
 
@@ -54,3 +59,4 @@ $(".saveBtn").click(function() {
 
 //local storage 
 // need to call local storage twice, display data first, other to save data
+
