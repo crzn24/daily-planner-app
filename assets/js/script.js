@@ -17,7 +17,7 @@ displayDate();
 // function to check time (hour of the day) and 
 function timeCheck() {
     var exactHour = moment().hour();
-    
+
 }
 
 
@@ -33,7 +33,9 @@ function timeCheck() {
 
 // function to change classes of the time blocks?
 
-
+if (exactHour) {
+    
+}
 
 
 
