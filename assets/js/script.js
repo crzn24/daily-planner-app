@@ -14,9 +14,11 @@ function displayDate() {
 displayDate();
 
 
-// function to check time?
-
-
+// function to check time (hour of the day) and 
+function timeCheck() {
+    var exactHour = moment().hour();
+    
+}
 
 
 
