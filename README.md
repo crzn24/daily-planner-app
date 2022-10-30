@@ -10,7 +10,7 @@ In this challenge I was getting used to using jQuery in my JavaScript. With the 
 ## Usage
 This application can serve as daily planner and its creation was a way to practice JavaScript, jQuery, and moment.
 
-[Link to application](https://crzn24.github.io/)
+[Link to application](https://crzn24.github.io/daily-planner-app/)
 
 
 
