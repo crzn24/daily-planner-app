@@ -15,7 +15,7 @@ displayDate();
 
 
 // function to check time (hour of the day) and 
-// var exactHour = moment().hour();
+var exactHour = moment().hours();
 
 // function timeCheck() {   
 
@@ -25,20 +25,23 @@ displayDate();
 // how to get hours for each time block
 // id class name or data
 
-// var rowTime = ".time-block"
+var rowTime = $(".time-block");
+console.log(rowTime);
 
+rowTime.each(function() {
+    var timeBlockHour = parseInt($(this).attr("id"))
 
-
+if (timeBlockHour < exactHour) {
+    $(this).addClass("past");
+} else if (timeBlockHour === exactHour) {
+    $(this).addClass("present");
+} else {
+    $(this).addClass("future");
+}
+})
 
 // function to change classes of the time blocks?
 
-// if (rowTime < exactHour) {
-//     addClass("past");
-// } else if (rowTime === exactHour) {
-//     addClass("present");
-// } else {
-//     addClass("future");
-// }
 
 
 
@@ -58,11 +61,11 @@ $("#9am .description").val(localStorage.getItem("9am"));
 $("#10am .description").val(localStorage.getItem("10am"));
 $("#11am .description").val(localStorage.getItem("11am"));
 $("#12pm .description").val(localStorage.getItem("12pm"));
-$("#1pm .description").val(localStorage.getItem("1pm"));
-$("#2pm .description").val(localStorage.getItem("2pm"));
-$("#3pm .description").val(localStorage.getItem("3pm"));
-$("#4pm .description").val(localStorage.getItem("4pm"));
-$("#5pm .description").val(localStorage.getItem("5pm"));
+$("#13pm .description").val(localStorage.getItem("13pm"));
+$("#14pm .description").val(localStorage.getItem("14pm"));
+$("#15pm .description").val(localStorage.getItem("15pm"));
+$("#16pm .description").val(localStorage.getItem("16pm"));
+$("#17pm .description").val(localStorage.getItem("17pm"));
 
 
 //local storage 
