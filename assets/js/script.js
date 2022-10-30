@@ -5,7 +5,6 @@ var dateDisplayEl = $("#currentDay");
 function displayDate() {
   var rightNow = moment().format("dddd, MMM Do, YYYY");
   dateDisplayEl.text(rightNow);
-  console.log("what day is it?");
 }
 
 displayDate();
@@ -17,7 +16,6 @@ var exactHour = moment().hours();
 // id class name or data
 // function to change classes of the time blocks
 var rowTime = $(".time-block");
-console.log(rowTime);
 
 rowTime.each(function () {
   var timeBlockHour = parseInt($(this).attr("id"));
@@ -36,11 +34,9 @@ rowTime.each(function () {
 //local storage
 // need to call local storage twice, display data first, other to save data
 $(".saveBtn").click(function () {
-  console.log("click works");
-
   var time = $(this).parent().attr("id");
   var textDescription = $(this).siblings(".description").val();
-                        //time is the key, textDescription is the value. both is what show up in local storage
+  //time is the key, textDescription is the value. both is what show up in local storage
   localStorage.setItem(time, textDescription);
 });
 
