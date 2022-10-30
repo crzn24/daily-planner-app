@@ -40,10 +40,11 @@ $(".saveBtn").click(function () {
 
   var time = $(this).parent().attr("id");
   var textDescription = $(this).siblings(".description").val();
-
+                        //time is the key, textDescription is the value. both is what show up in local storage
   localStorage.setItem(time, textDescription);
 });
 
+//had to change hours 1pm to 5pm to 13-17 because moment recognizes military time or the 24 hour clock
 $("#9am .description").val(localStorage.getItem("9am"));
 $("#10am .description").val(localStorage.getItem("10am"));
 $("#11am .description").val(localStorage.getItem("11am"));
